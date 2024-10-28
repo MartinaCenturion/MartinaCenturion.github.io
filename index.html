@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tots Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img src="logo.png" alt="Logo Tots Gallery" class="logo">
+        </a>
+        <div class="search-bar">
+            <input type="search" id="search-input" placeholder="Buscar imágenes..." aria-label="Buscar imágenes">
+            <button id="search-button">Buscar</button>
+            <button id="clear-button">Limpiar</button>
+        </div>
+    </header>
+
+
+    <div id="gallery" class="gallery">
+    </div>
+
+    <div class="chat-bubble" id="chat-bubble">
+        <img src="chat-icon.jpg" alt="Chat Icon" class="chat-icon">
+    </div>
+
+    <div class="chat-box" id="chat-box">
+        <div class="chat-header">
+            <h3>Preguntas Frecuentes</h3>
+            <span class="close-chat" id="close-chat">X</span>
+        </div>
+        <div class="chat-content">
+            <p><strong>¿Cómo puedo subir imágenes?</strong></p>
+            <p>Actualmente, la galería no admite la subida de imágenes de los usuarios.</p>
+            <p><strong>¿Cómo encuentro imágenes?</strong></p>
+            <p>Utiliza la barra de búsqueda para encontrar imágenes en la galería.</p>
+            <p><strong>¿Puedo descargar las imágenes?</strong></p>
+            <p>Sí, puedes hacer clic derecho en cualquier imagen y guardarla en tu dispositivo.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
